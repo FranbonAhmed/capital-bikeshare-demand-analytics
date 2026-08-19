@@ -1,0 +1,9 @@
+model,specification,split_random_state,metric,value
+Decision Tree,"max_depth=3, entropy",200,Test Accuracy,0.8562
+Majority baseline,Always predict DO_High,200,Test Accuracy,0.8561643835616438
+Decision Tree,DO_High positive,200,TPR,0.984
+Decision Tree,DO_High positive,200,FPR,0.9048
+Linear SVM,5-fold training CV,200,CV AUC,0.6144
+KNN,"k=10, 5-fold training CV",200,CV AUC,0.514
+Decision Tree,"depth=3, 5-fold training CV",200,CV AUC,0.5046
+Linear SVM,selected by CV AUC,200,Test AUC,0.5425

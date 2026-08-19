@@ -1,0 +1,9 @@
+feature,pickup_lasso_coefficient
+temp,0.4865
+precip,-0.0539
+windspeed,-0.0842
+uvindex,0.3409
+icon_cloudy,-0.1668
+icon_partly-cloudy-day,-0.0017
+icon_rain,0.0
+icon_snow,0.1313
